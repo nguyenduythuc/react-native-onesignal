@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "invariant": "^2.2.2"
+    "invariant": "^2.2.3"
   },
   "keywords": [
     "react-component",
