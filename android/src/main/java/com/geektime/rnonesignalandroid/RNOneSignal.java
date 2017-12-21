@@ -261,7 +261,6 @@ public class RNOneSignal extends ReactContextBaseJavaModule implements Lifecycle
     private void notifyNotificationOpened(Bundle bundle) {
         try {
             Handler handler = new Handler();
-            sendEvent("remoteNotificationOpened",  RNUtils.jsonToWritableMap(jsonObject));
             final JSONObject jsonObject = new JSONObject(bundle.getString("result"));
             handler.postDelayed(new Runnable() {
               @Override
